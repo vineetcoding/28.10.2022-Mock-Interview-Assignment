@@ -8,14 +8,12 @@
 
 .header1{
     border: 1px solid;
-    height: 6vh;
-    width: 100%;
+    width: auto;
     align-items: center;
     color: lightgray;
-    
 }
 .header1 i{
-    margin: 1.6vh 1vh;
+    margin: 0.5%;
 }
 .p_mid{
     display: inline-block;
@@ -24,26 +22,26 @@
 .p_right{
     display: flex;
     float: right;
-    padding: 1.6vh 2vh;
+    padding: 0.2% 2%;
 }
 .header2{
     border: 1px solid lightgray;
-    height: 12vh;
-    width: 100%;
+    /* height: 10%; */
+    width: auto;
     display: flex;
     align-items: center;
     
 }
 .header2 .logo{
     color: var(--pink-color);
-    padding: 2vh;
+    padding: 2%;
     padding-right: 7%;
     font-size: xx-large;
 }
 .header2 input{
     height: 5vh;
-    width: 50%;
-    border-radius: 1vw;
+    width: 60%;
+    border-radius: 5vh;
     border-width: 1px;
 }
 .header2_right{
@@ -53,12 +51,15 @@
 }
 #right{
     padding: 6%;
-    font-size: 4vh;
+    font-size: auto;
 }
 .category{
     /* border: 1px solid; */
+    color:blueviolet;
     display: flex;
     justify-content: center;
+    /* position: sticky; */
+    /* top: 0; */
 }
 .category p{
     padding: 1% 2%;
@@ -66,14 +67,12 @@
 
 .big_img{
     width: 100%;
-    height: 75vh;
 }
 .horizontal_div{
     /* border:  1px solid; */
     width: 100%;
-    height: 15vh;
+    height: 20vh;
     display: flex;
-    /* overflow-y: scroll; */
     padding: 4vh 0vh;
     padding-right: inherit;
 }
@@ -83,95 +82,103 @@
     width: 40vh;
     display: flex;
     align-items: center;
-    margin: 2vh 4vh;
-    border-radius: 15%;
+    margin: 5% 1%;
+    border-radius: 2vh;
 }
 .small_img{
     border: 1px solid rgb(151, 151, 151);
-    background-color: lightgray;
-    height: 6vh;
-    margin-left: 2vh;
+    background-color: lightgray; 
+    height: 55%;
+    margin-left: 7%;
 }
 .small_box h5{
-    margin-top: -4vh;
-    margin-left: 2vh;
+    margin-top: -9%;
+    margin-left: 5%;
 }
 .small_box h6{
-    margin-top: 4vh;
-    margin-left: -17.5vh;
+    margin-top: 9%;
+    margin-left: -44%;
     color: var(--pink-color);
 }
 .mid_big_div{
     display: flex;
+    margin-left: 21%;
+    margin-top: -21%;
 }
-.left_sidebar_stick{
-    border: 1px solid;
-    width: 21%;
-    height: 80vh;
-    margin: 4vh;
-    display: grid;
-    grid-template-columns: 50vh;
+.left_sidebar_sticky{
+    /* border: 1px solid lightgray; */
+    color: var(--pink-color);
+    width: 16%;
+    margin: 2%;
+    position: sticky;
+    top: 0;
 }
+.left_sidebar_sticky p{
+    padding: 3%;
+    color: lightgray;
+}
+/* .left_sidebar_sticky i{
+    
+} */
 #midh4{
     color: black;    
 }
 .new_arrival_contaner{
-    padding: 4vh;
+    padding: 2%;
 }
 .deal_of_the_day1{
-    /* border: 1px solid; */
-    float: right;
-    width:77%;
+    margin-left: 23%;
     color: lightgray;
-    margin-bottom: 4vh;
+    margin-bottom: 2%;
 }
 .deal_of_the_day{
     border: 1px solid lightgray;
-    border-radius: 2%;
-    float: right;
-    width:77%;
+    border-radius: 2vh;
+    margin-left: 23%;
 }
 .shampoo{
     /* border: 1px solid; */
-    width: 80vh;
+    width: 40%;
     float: left;
 }
 .shampoo_text{
-    padding: 15vh;
+    padding: 12%;
 }
 .shampoo_text i{
     color: orange;
-    padding-bottom: 3.5vh;
+    padding-bottom: 1.5%;
 }
 .shampoo_text h4{
-    padding-bottom: 2vh;
+    padding-bottom: 1%;
 }
 .shampoo_text p{
     color: lightgray;
 }
 .shampoo_text h2{
-    padding: 2vh;
+    padding: 2%;
     color: var(--pink-color);
 }
 .shampoo_text button{
     background-color: var(--pink-color);
-    border: 2px solid var(--pink-color);
-    border-radius: 15%;
+    border: 10px solid var(--pink-color);
+    border-radius: 2vh;
     color: white;
     font-size: small;
     
 }
 .new_products{
-    float: right;
-    width:77%;
+    /* float: right; */
+    /* width:77%; */
+    margin-left: 23%;
     color: lightgray;
-    padding: 4vh;
+    padding: 2%;
     padding-right: initial;
 }
 .new_products_div{
     /* border: 1px solid; */
-    float: right;
-    width: 77%;
+    /* float: right; */
+    /* width: 77%; */
+    margin-left: 23%;
     height: fit-content;
     display: flex;
     flex: wrap;
@@ -180,12 +187,12 @@
 }
 .products{
     border: 1px solid lightgray;
-    width: 24%;
-    height: 50vh;
-    margin: 2vh;
+    /* border-radius: 1vh; */
+    width: 26%;
+    margin: 1.5%;
 }
 .products img{
-    width: 37vh;
+    width: 100%;
 }
 .products h5{
     color: var(--pink-color);
@@ -201,7 +208,6 @@
 .footer_img_div{
     /* border: 1px solid; */
     width: 100%;
-    float: right;
     display: flex;
     justify-content: center;
     padding-top: 7vh;
@@ -213,7 +219,7 @@
 }
 .footer_img img{
     width: 100%;
-    border-radius: 10%;
+    border-radius: 2vh;
 }
 .footer_img h5{
     color: var(--pink-color);
@@ -225,7 +231,110 @@
     border: 1px solid;
     background-color: black;
     width: 100%;
-    height: 90vh;
     float: right;
     color: lightgray;
 }
+/* .footer_bar{
+    border: 2px solid blue;
+    width: 390px;
+    height: 6vh;
+    position: sticky;
+    bottom: 0;
+} */
+
+/* For Mobile Screen */
+
+@media only screen and (max-width:420px) {
+    .header1{
+        width: 100%;
+    }
+    .header1 i, .p_right, .header2_right, .header2 input, .category, .left_sidebar_sticky, .footer_img_div{
+        display: none;
+    }
+    .horizontal_div{
+        display: block;
+    }
+    .mid_big_div{
+        display: block;
+        margin: 0;
+        margin-top: 90%;
+    }
+    .new_products, .deal_of_the_day, .deal_of_the_day1{
+        margin-left: 4%;
+        width: 100%;
+    }
+    .new_products_div{
+        margin-left: 8%;
+        flex-wrap: wrap;
+    }
+    .products{
+        width: 40%;
+    }
+
+}
+
+
+/* For Tab Screen */
+
+@media only screen and (min-width:421px) and (max-width:821px){
+    .header1, .p_mid, .p_right{
+        margin: 0.5vh;
+        font-size: xx-large;
+    }
+    .header1, .header2, .big_img{
+        width: 134vh;
+    }
+    .header1 i, .header2_right, .category, .left_sidebar_sticky, .footer_img_div, #extra_item{
+        display: none;
+    }
+    .logo{
+        font-size: xx-large;
+    }
+    #small_box{
+        width: 45%;
+    }
+    .horizontal_div{
+        /* border: 1px solid; */
+        margin-left: 15%;
+        width: 1350px;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    
+    .mid_big_div{
+        /* border: 1px solid; */
+        margin: 0;
+        width: 115vh;
+        margin-left: 15%;
+    }
+    .small_box{
+        width: 50vh;
+    }
+    .small_box h6{
+        margin-left: -18%;
+    }
+    .new_products, .deal_of_the_day, .deal_of_the_day1{
+        margin-left: 15%;
+        width: 110vh;
+    }
+    .new_products_div{
+        /* border: 1px solid blue; */
+        flex-wrap: wrap;
+        width: 100vh;
+    }
+    .products{
+        width: 45vh;
+    }
+    .dark_footer{
+        border: 5px solid green;
+    }
+}
+
+
+
+
+
+
+
+
+
